@@ -17,7 +17,7 @@ public class SettingView extends RelativeLayout {
 	private static final String TAG = "SettingView";
 	private final String NAMESPACE = "http://schemas.android.com/apk/res/com.longuto.phoneSafe";
 	
-	private String mTitle;	// 标题
+	private String mTitle;	// 标题 
 	private String mDes_on;	// 自动更新开
 	private String mDes_off;	// 自动更新关
 	private TextView mTitleTv;	// 标题控件
