@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/home_grid_item_linely"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/gridItemIcon_iv"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:src="@drawable/safe" />
+
+    <TextView
+        android:id="@+id/gridItemName_tv"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:textSize="13dp"
+        android:text="手机防盗" />
+</LinearLayout>

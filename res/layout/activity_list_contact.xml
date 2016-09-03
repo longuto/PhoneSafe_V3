@@ -1,0 +1,16 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.longuto.phoneSafe.ListContactActivity" >
+    <TextView
+        android:id="@+id/title_bar_tv"
+        style="@style/titleBarStyle"
+        android:text="选择联系人" />
+	<ListView
+	    android:id="@+id/contactList_lstv"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/title_bar_tv"
+	    /> 
+</RelativeLayout>

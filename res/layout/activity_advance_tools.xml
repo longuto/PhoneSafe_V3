@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.longuto.phoneSafe.AdvanceToolsActivity" >
+    <TextView
+        android:id="@+id/textView1"
+        style="@style/titleBarStyle"
+        android:text="高级工具" />
+    <Button
+        android:id="@+id/queryNum_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/my_lostfind_btn"
+        android:drawableLeft="@android:drawable/star_on"
+        android:drawableRight="@android:drawable/star_on"   
+        android:onClick="queryNum"     
+        android:text="手机号码归属地查询" />
+    <Button
+        android:id="@+id/chooseDia_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/my_lostfind_btn"
+        android:drawableLeft="@android:drawable/star_on"
+        android:drawableRight="@android:drawable/star_on" 
+        android:onClick="chooseDiaStyle"
+        android:text="号码归属地提示框风格"
+        />
+    <Button
+        android:id="@+id/rocket_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/my_lostfind_btn"
+        android:drawableLeft="@android:drawable/star_on"
+        android:drawableRight="@android:drawable/star_on" 
+        android:onClick="enterRockActivity"
+        android:text="小火箭"
+        />
+    <Button
+        android:id="@+id/backupSms_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/my_lostfind_btn"
+        android:drawableLeft="@android:drawable/star_on"
+        android:drawableRight="@android:drawable/star_on" 
+        android:onClick="backupSms"
+        android:text="备份短信"
+        />
+</LinearLayout>

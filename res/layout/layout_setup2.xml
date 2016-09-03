@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:longuto="http://schemas.android.com/apk/res/com.longuto.phoneSafe"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+     <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="15sp"
+        android:text="通过绑定SIM卡" />
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="15sp"
+        android:text="更换SIM,发送报警短信" />
+    <com.longuto.phoneSafe.view.SettingView 
+        android:id="@+id/myset_setv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        longuto:setting_title="绑定SIM卡"
+        longuto:des_on="sim卡已绑定"
+        longuto:des_off="sim卡已解绑" />
+    <LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="5dp"
+	    android:gravity="center"
+	    android:orientation="horizontal" >   
+	</LinearLayout>
+	<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    >
+	    <ImageView
+	        android:layout_width="60dp"
+	        android:layout_height="60dp"
+	        android:layout_centerHorizontal="true"
+	        android:layout_centerVertical="true"
+	        android:src="@drawable/bind" />	   
+	</RelativeLayout>
+
+</LinearLayout>

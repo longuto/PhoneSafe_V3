@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+    
+    <ImageView
+        android:id="@+id/progressIcon_iv"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/shenmabg" />
+  
+    <TextView
+        android:id="@+id/progressName_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/progressIcon_iv"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/progressIcon_iv"
+        android:textSize="18sp"
+        android:text="手机安全卫士" />
+
+    <TextView
+        android:id="@+id/progressMemory_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/progressIcon_iv"
+        android:layout_alignLeft="@+id/progressName_tv"
+        android:text="17MB" />
+
+    <CheckBox
+        android:id="@+id/progressIschecked_ckb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/progressMemory_tv"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        android:clickable="false"
+        android:focusable="false"
+        android:text="" />
+
+</RelativeLayout>

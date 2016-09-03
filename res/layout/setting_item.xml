@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" > 
+	<TextView
+	    android:id="@+id/title_tv"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:layout_alignParentTop="true"
+	    android:layout_marginTop="3dp"
+	    android:layout_marginLeft="15dp"
+	    android:textSize="16sp"
+	    android:text="设置自动更新" />
+
+	<TextView
+	    android:id="@+id/isUpdate_tv"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+		android:layout_below="@+id/title_tv"
+		android:layout_marginTop="4dp"
+		android:layout_alignLeft="@+id/title_tv"
+		android:textSize="16sp"
+	    android:text="设置自动更新开启" />
+
+	<CheckBox
+	    android:id="@+id/isUpdate_ckb"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentRight="true"
+	    android:layout_centerVertical="true"
+	    android:layout_marginRight="25dp" />
+
+	<TextView
+	    android:id="@+id/textView2"
+	    android:layout_width="match_parent"
+	    android:layout_height="3dp"
+		android:background="@android:color/holo_red_light"
+		android:layout_below="@+id/isUpdate_tv"
+	     />
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.longuto.phoneSafe.WatchDogActivity" >
+
+    <ImageView
+        android:id="@+id/icon_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="82dp"
+        android:layout_marginTop="46dp"
+        android:src="@android:drawable/sym_def_app_icon" />
+
+    <TextView
+        android:id="@+id/appName_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/icon_iv"
+        android:textSize="20sp"
+        android:layout_marginBottom="14dp"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/icon_iv"
+        android:text="手机卫士" />
+
+    <Button
+        android:id="@+id/unlock_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/enterUnlockPass_edt "
+        android:layout_below="@+id/enterUnlockPass_edt "
+        android:layout_marginTop="10dp"
+        android:text="解锁" />
+
+    <EditText
+        android:id="@+id/enterUnlockPass_edt "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/icon_iv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:ems="12"
+        android:hint="请输入解锁密码" >
+
+        <requestFocus />
+    </EditText>
+
+</RelativeLayout>

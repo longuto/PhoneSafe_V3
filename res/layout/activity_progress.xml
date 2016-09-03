@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.longuto.phoneSafe.ProgressActivity" >
+	<TextView
+        style="@style/titleBarStyle"
+        android:text="进程软件" />
+    <ListView
+        android:id="@+id/progresss_lst"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+    </ListView>	
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+	   	<Button
+	   	    android:layout_width="0dp"
+	   	    android:layout_weight="1"
+	   	    android:layout_height="wrap_content"
+	   	    android:onClick="allChoose"
+	   	    android:text="全选"
+	   	    />
+	   	<Button
+	   	    android:layout_width="0dp"
+	   	    android:layout_weight="1"
+	   	    android:layout_height="wrap_content"
+	   	    android:onClick="allUnChoose"
+	   	    android:text="反选"
+	   	    />
+	   	<Button
+	   	    android:layout_width="0dp"
+	   	    android:layout_weight="1"
+	   	    android:layout_height="wrap_content"
+	   	    android:onClick="clearProgress"
+	   	    android:text="清除"
+	   	    />
+	   	<Button
+	   	    android:layout_width="0dp"
+	   	    android:layout_weight="1"
+	   	    android:layout_height="wrap_content"
+	   	    android:onClick="setProgress"
+	   	    android:text="设置"
+	   	    />
+	</LinearLayout>
+</LinearLayout>

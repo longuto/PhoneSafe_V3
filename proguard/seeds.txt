@@ -1,0 +1,381 @@
+android.support.v4.app.BackStackState
+android.support.v4.app.BackStackState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.Fragment$SavedState
+android.support.v4.app.Fragment$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentManagerState
+android.support.v4.app.FragmentManagerState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentState
+android.support.v4.app.FragmentState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentTabHost: void setOnTabChangedListener(android.widget.TabHost$OnTabChangeListener)
+android.support.v4.app.FragmentTabHost$SavedState
+android.support.v4.app.FragmentTabHost$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.NotificationCompat$Builder: android.support.v4.app.NotificationCompat$Builder setProgress(int,int,boolean)
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status[] values()
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status valueOf(java.lang.String)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColor(int)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColorResource(int)
+android.support.v4.view.PagerTabStrip: int getTabIndicatorColor()
+android.support.v4.view.PagerTabStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.PagerTabStrip: void setBackgroundColor(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundResource(int)
+android.support.v4.view.PagerTabStrip: void setDrawFullUnderline(boolean)
+android.support.v4.view.PagerTabStrip: boolean getDrawFullUnderline()
+android.support.v4.view.PagerTabStrip: int getMinHeight()
+android.support.v4.view.PagerTitleStrip: void setSingleLineAllCaps(android.widget.TextView)
+android.support.v4.view.PagerTitleStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTitleStrip: int getTextSpacing()
+android.support.v4.view.PagerTitleStrip: void setNonPrimaryAlpha(float)
+android.support.v4.view.PagerTitleStrip: void setTextColor(int)
+android.support.v4.view.PagerTitleStrip: void setGravity(int)
+android.support.v4.view.PagerTitleStrip: int getMinHeight()
+android.support.v4.view.ViewPager
+android.support.v4.view.ViewPager: ViewPager(android.content.Context)
+android.support.v4.view.ViewPager: ViewPager(android.content.Context,android.util.AttributeSet)
+android.support.v4.view.ViewPager: void setScrollState(int)
+android.support.v4.view.ViewPager: void setAdapter(android.support.v4.view.PagerAdapter)
+android.support.v4.view.ViewPager: android.support.v4.view.PagerAdapter getAdapter()
+android.support.v4.view.ViewPager: void setOnAdapterChangeListener(android.support.v4.view.ViewPager$OnAdapterChangeListener)
+android.support.v4.view.ViewPager: int getClientWidth()
+android.support.v4.view.ViewPager: void setCurrentItem(int)
+android.support.v4.view.ViewPager: int getCurrentItem()
+android.support.v4.view.ViewPager: void setOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener)
+android.support.v4.view.ViewPager: void setChildrenDrawingOrderEnabledCompat(boolean)
+android.support.v4.view.ViewPager: int getOffscreenPageLimit()
+android.support.v4.view.ViewPager: void setOffscreenPageLimit(int)
+android.support.v4.view.ViewPager: void setPageMargin(int)
+android.support.v4.view.ViewPager: int getPageMargin()
+android.support.v4.view.ViewPager: void setPageMarginDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.ViewPager: void setPageMarginDrawable(int)
+android.support.v4.view.ViewPager: void setScrollingCacheEnabled(boolean)
+android.support.v4.view.ViewPager$SavedState
+android.support.v4.view.ViewPager$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.DrawerLayout: void setScrimColor(int)
+android.support.v4.widget.DrawerLayout: void setDrawerListener(android.support.v4.widget.DrawerLayout$DrawerListener)
+android.support.v4.widget.DrawerLayout: void setDrawerLockMode(int)
+android.support.v4.widget.DrawerLayout$SavedState
+android.support.v4.widget.DrawerLayout$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.SlidingPaneLayout: void setParallaxDistance(int)
+android.support.v4.widget.SlidingPaneLayout: int getParallaxDistance()
+android.support.v4.widget.SlidingPaneLayout: void setSliderFadeColor(int)
+android.support.v4.widget.SlidingPaneLayout: int getSliderFadeColor()
+android.support.v4.widget.SlidingPaneLayout: void setCoveredFadeColor(int)
+android.support.v4.widget.SlidingPaneLayout: int getCoveredFadeColor()
+android.support.v4.widget.SlidingPaneLayout: void setPanelSlideListener(android.support.v4.widget.SlidingPaneLayout$PanelSlideListener)
+android.support.v4.widget.SlidingPaneLayout: void setShadowDrawable(android.graphics.drawable.Drawable)
+android.support.v4.widget.SlidingPaneLayout: void setShadowDrawableLeft(android.graphics.drawable.Drawable)
+android.support.v4.widget.SlidingPaneLayout: void setShadowDrawableRight(android.graphics.drawable.Drawable)
+android.support.v4.widget.SlidingPaneLayout: void setShadowResource(int)
+android.support.v4.widget.SlidingPaneLayout: void setShadowResourceLeft(int)
+android.support.v4.widget.SlidingPaneLayout: void setShadowResourceRight(int)
+android.support.v4.widget.SlidingPaneLayout$SavedState
+android.support.v4.widget.SlidingPaneLayout$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.SwipeRefreshLayout: void setOnRefreshListener(android.support.v4.widget.SwipeRefreshLayout$OnRefreshListener)
+android.support.v4.widget.SwipeRefreshLayout: void setTriggerPercentage(float)
+android.support.v4.widget.SwipeRefreshLayout: void setRefreshing(boolean)
+android.support.v4.widget.SwipeRefreshLayout: void setTargetOffsetTopAndBottom(int)
+com.lidroid.xutils.bitmap.callback.BitmapLoadFrom: com.lidroid.xutils.bitmap.callback.BitmapLoadFrom[] values()
+com.lidroid.xutils.bitmap.callback.BitmapLoadFrom: com.lidroid.xutils.bitmap.callback.BitmapLoadFrom valueOf(java.lang.String)
+com.lidroid.xutils.db.sqlite.ColumnDbType: com.lidroid.xutils.db.sqlite.ColumnDbType[] values()
+com.lidroid.xutils.db.sqlite.ColumnDbType: com.lidroid.xutils.db.sqlite.ColumnDbType valueOf(java.lang.String)
+com.lidroid.xutils.http.HttpHandler$State: com.lidroid.xutils.http.HttpHandler$State[] values()
+com.lidroid.xutils.http.HttpHandler$State: com.lidroid.xutils.http.HttpHandler$State valueOf(java.lang.String)
+com.lidroid.xutils.http.client.HttpRequest$HttpMethod: com.lidroid.xutils.http.client.HttpRequest$HttpMethod[] values()
+com.lidroid.xutils.http.client.HttpRequest$HttpMethod: com.lidroid.xutils.http.client.HttpRequest$HttpMethod valueOf(java.lang.String)
+com.lidroid.xutils.http.client.multipart.HttpMultipartMode: com.lidroid.xutils.http.client.multipart.HttpMultipartMode[] values()
+com.lidroid.xutils.http.client.multipart.HttpMultipartMode: com.lidroid.xutils.http.client.multipart.HttpMultipartMode valueOf(java.lang.String)
+com.lidroid.xutils.task.Priority: com.lidroid.xutils.task.Priority[] values()
+com.lidroid.xutils.task.Priority: com.lidroid.xutils.task.Priority valueOf(java.lang.String)
+com.lidroid.xutils.view.ResType: com.lidroid.xutils.view.ResType[] values()
+com.lidroid.xutils.view.ResType: com.lidroid.xutils.view.ResType valueOf(java.lang.String)
+com.longuto.phoneSafe.AddressActivity
+com.longuto.phoneSafe.AddressActivity: AddressActivity()
+com.longuto.phoneSafe.AddressActivity: void queryNum(android.view.View)
+com.longuto.phoneSafe.AdvanceToolsActivity
+com.longuto.phoneSafe.AdvanceToolsActivity: AdvanceToolsActivity()
+com.longuto.phoneSafe.AdvanceToolsActivity: void queryNum(android.view.View)
+com.longuto.phoneSafe.AdvanceToolsActivity: void chooseDiaStyle(android.view.View)
+com.longuto.phoneSafe.AdvanceToolsActivity: void enterRockActivity(android.view.View)
+com.longuto.phoneSafe.BackNumActivity
+com.longuto.phoneSafe.BackNumActivity: BackNumActivity()
+com.longuto.phoneSafe.GuideActivity
+com.longuto.phoneSafe.GuideActivity: GuideActivity()
+com.longuto.phoneSafe.GuideActivity: void enterSplash(android.view.View)
+com.longuto.phoneSafe.HomeActivity
+com.longuto.phoneSafe.HomeActivity: HomeActivity()
+com.longuto.phoneSafe.ListContactActivity
+com.longuto.phoneSafe.ListContactActivity: ListContactActivity()
+com.longuto.phoneSafe.LostFindActivity
+com.longuto.phoneSafe.LostFindActivity: LostFindActivity()
+com.longuto.phoneSafe.ProgressActivity
+com.longuto.phoneSafe.ProgressActivity: ProgressActivity()
+com.longuto.phoneSafe.ProgressActivity: void allChoose(android.view.View)
+com.longuto.phoneSafe.ProgressActivity: void allUnChoose(android.view.View)
+com.longuto.phoneSafe.ProgressActivity: void clearProgress(android.view.View)
+com.longuto.phoneSafe.ProgressActivity: void setProgress(android.view.View)
+com.longuto.phoneSafe.R$anim: int cycle_7
+com.longuto.phoneSafe.R$anim: int next_enter
+com.longuto.phoneSafe.R$anim: int next_exit
+com.longuto.phoneSafe.R$anim: int pre_enter
+com.longuto.phoneSafe.R$anim: int pre_exit
+com.longuto.phoneSafe.R$anim: int shake
+com.longuto.phoneSafe.R$attr: int des_off
+com.longuto.phoneSafe.R$attr: int des_on
+com.longuto.phoneSafe.R$attr: int setting_title
+com.longuto.phoneSafe.R$color: int my_color_btn
+com.longuto.phoneSafe.R$color: int transparent
+com.longuto.phoneSafe.R$dimen: int activity_horizontal_margin
+com.longuto.phoneSafe.R$dimen: int activity_vertical_margin
+com.longuto.phoneSafe.R$drawable: int app
+com.longuto.phoneSafe.R$drawable: int atools
+com.longuto.phoneSafe.R$drawable: int bg_splash
+com.longuto.phoneSafe.R$drawable: int bind
+com.longuto.phoneSafe.R$drawable: int btn_green_normal
+com.longuto.phoneSafe.R$drawable: int btn_green_pressed
+com.longuto.phoneSafe.R$drawable: int call_locate_blue
+com.longuto.phoneSafe.R$drawable: int call_locate_gray
+com.longuto.phoneSafe.R$drawable: int call_locate_green
+com.longuto.phoneSafe.R$drawable: int call_locate_orange
+com.longuto.phoneSafe.R$drawable: int call_locate_white
+com.longuto.phoneSafe.R$drawable: int callmsgsafe
+com.longuto.phoneSafe.R$drawable: int delete_icon
+com.longuto.phoneSafe.R$drawable: int desktop_rocket_launch_1
+com.longuto.phoneSafe.R$drawable: int desktop_rocket_launch_2
+com.longuto.phoneSafe.R$drawable: int dotlly_select
+com.longuto.phoneSafe.R$drawable: int function_greenbutton_normal
+com.longuto.phoneSafe.R$drawable: int function_greenbutton_pressed
+com.longuto.phoneSafe.R$drawable: int guide_1
+com.longuto.phoneSafe.R$drawable: int guide_2
+com.longuto.phoneSafe.R$drawable: int guide_3
+com.longuto.phoneSafe.R$drawable: int ic_andorid
+com.longuto.phoneSafe.R$drawable: int ic_apple
+com.longuto.phoneSafe.R$drawable: int ic_launcher
+com.longuto.phoneSafe.R$drawable: int ic_logo
+com.longuto.phoneSafe.R$drawable: int ic_menu_call
+com.longuto.phoneSafe.R$drawable: int ic_sheep
+com.longuto.phoneSafe.R$drawable: int img1
+com.longuto.phoneSafe.R$drawable: int img2
+com.longuto.phoneSafe.R$drawable: int img3
+com.longuto.phoneSafe.R$drawable: int img4
+com.longuto.phoneSafe.R$drawable: int jiantou1_disable
+com.longuto.phoneSafe.R$drawable: int local_popup_bg
+com.longuto.phoneSafe.R$drawable: int lock
+com.longuto.phoneSafe.R$drawable: int main_clean_icon
+com.longuto.phoneSafe.R$drawable: int main_clean_icon_pressed
+com.longuto.phoneSafe.R$drawable: int main_icon_notification
+com.longuto.phoneSafe.R$drawable: int my_animation_list
+com.longuto.phoneSafe.R$drawable: int my_delete_select
+com.longuto.phoneSafe.R$drawable: int my_enter_btn
+com.longuto.phoneSafe.R$drawable: int my_function_btn
+com.longuto.phoneSafe.R$drawable: int my_lostfind_btn
+com.longuto.phoneSafe.R$drawable: int netmanager
+com.longuto.phoneSafe.R$drawable: int next
+com.longuto.phoneSafe.R$drawable: int phone
+com.longuto.phoneSafe.R$drawable: int previous
+com.longuto.phoneSafe.R$drawable: int safe
+com.longuto.phoneSafe.R$drawable: int settings
+com.longuto.phoneSafe.R$drawable: int setup1
+com.longuto.phoneSafe.R$drawable: int shenmabg
+com.longuto.phoneSafe.R$drawable: int sysoptimize
+com.longuto.phoneSafe.R$drawable: int taskmanager
+com.longuto.phoneSafe.R$drawable: int ticket_btn_cancel_normal
+com.longuto.phoneSafe.R$drawable: int ticket_btn_cancel_pressed
+com.longuto.phoneSafe.R$drawable: int trojan
+com.longuto.phoneSafe.R$drawable: int unlock
+com.longuto.phoneSafe.R$id: int action_settings
+com.longuto.phoneSafe.R$id: int all_rb
+com.longuto.phoneSafe.R$id: int backNumAdd_btn
+com.longuto.phoneSafe.R$id: int backNumCancel_btn
+com.longuto.phoneSafe.R$id: int backNumMode_rgp
+com.longuto.phoneSafe.R$id: int backNum_add
+com.longuto.phoneSafe.R$id: int backNum_edt
+com.longuto.phoneSafe.R$id: int backNum_lstV
+com.longuto.phoneSafe.R$id: int backNum_tv
+com.longuto.phoneSafe.R$id: int backnumDel_iv
+com.longuto.phoneSafe.R$id: int call_rb
+com.longuto.phoneSafe.R$id: int cancel_btn
+com.longuto.phoneSafe.R$id: int cancle_btn
+com.longuto.phoneSafe.R$id: int changeType_ckb
+com.longuto.phoneSafe.R$id: int chooseDia_btn
+com.longuto.phoneSafe.R$id: int choosePeople_btn
+com.longuto.phoneSafe.R$id: int confirm_pwd
+com.longuto.phoneSafe.R$id: int contactList_lstv
+com.longuto.phoneSafe.R$id: int contactName_tv
+com.longuto.phoneSafe.R$id: int contactNum_tv
+com.longuto.phoneSafe.R$id: int content_fly
+com.longuto.phoneSafe.R$id: int detail_tv
+com.longuto.phoneSafe.R$id: int dotState_lly
+com.longuto.phoneSafe.R$id: int downLoad_pgb
+com.longuto.phoneSafe.R$id: int enterSetupAgain_btn
+com.longuto.phoneSafe.R$id: int enter_btn
+com.longuto.phoneSafe.R$id: int fuction_gv
+com.longuto.phoneSafe.R$id: int functionPage_Vp
+com.longuto.phoneSafe.R$id: int gridItemIcon_iv
+com.longuto.phoneSafe.R$id: int gridItemName_tv
+com.longuto.phoneSafe.R$id: int guideImage_vwp
+com.longuto.phoneSafe.R$id: int home_grid_item_linely
+com.longuto.phoneSafe.R$id: int imageView1
+com.longuto.phoneSafe.R$id: int isOPenBackNum_setv
+com.longuto.phoneSafe.R$id: int isOpenlost_iv
+com.longuto.phoneSafe.R$id: int isUpdate_ckb
+com.longuto.phoneSafe.R$id: int isUpdate_tv
+com.longuto.phoneSafe.R$id: int linearLayout1
+com.longuto.phoneSafe.R$id: int linearLayout2
+com.longuto.phoneSafe.R$id: int mode_tv
+com.longuto.phoneSafe.R$id: int myset_setv
+com.longuto.phoneSafe.R$id: int next_btn
+com.longuto.phoneSafe.R$id: int numLocation_edt
+com.longuto.phoneSafe.R$id: int numLocation_setv
+com.longuto.phoneSafe.R$id: int numLocation_tv
+com.longuto.phoneSafe.R$id: int ok_btn
+com.longuto.phoneSafe.R$id: int onlyTitle_bar_tv
+com.longuto.phoneSafe.R$id: int phoneNum_tv
+com.longuto.phoneSafe.R$id: int pre_btn
+com.longuto.phoneSafe.R$id: int progressIcon_iv
+com.longuto.phoneSafe.R$id: int progressIschecked_ckb
+com.longuto.phoneSafe.R$id: int progressMemory_tv
+com.longuto.phoneSafe.R$id: int progressName_tv
+com.longuto.phoneSafe.R$id: int progress_tv
+com.longuto.phoneSafe.R$id: int progresss_lst
+com.longuto.phoneSafe.R$id: int pwd_et
+com.longuto.phoneSafe.R$id: int queryNum_btn
+com.longuto.phoneSafe.R$id: int rocket_btn
+com.longuto.phoneSafe.R$id: int rocket_iv
+com.longuto.phoneSafe.R$id: int safeNum_tv
+com.longuto.phoneSafe.R$id: int safePhoneNum_edt
+com.longuto.phoneSafe.R$id: int saveNum_btn
+com.longuto.phoneSafe.R$id: int share_tv
+com.longuto.phoneSafe.R$id: int sms_rb
+com.longuto.phoneSafe.R$id: int softIcon_iv
+com.longuto.phoneSafe.R$id: int softIsSdCard_tv
+com.longuto.phoneSafe.R$id: int softName_tv
+com.longuto.phoneSafe.R$id: int softVersion_tv
+com.longuto.phoneSafe.R$id: int softWare_lst
+com.longuto.phoneSafe.R$id: int start_tv
+com.longuto.phoneSafe.R$id: int sure_btn
+com.longuto.phoneSafe.R$id: int test_pwd_edt
+com.longuto.phoneSafe.R$id: int textView1
+com.longuto.phoneSafe.R$id: int textView2
+com.longuto.phoneSafe.R$id: int title_bar_tv
+com.longuto.phoneSafe.R$id: int title_tv
+com.longuto.phoneSafe.R$id: int uninstall_tv
+com.longuto.phoneSafe.R$id: int updateSet_SetV
+com.longuto.phoneSafe.R$id: int userdTag_tv
+com.longuto.phoneSafe.R$id: int version_tv
+com.longuto.phoneSafe.R$id: int welcome_iv
+com.longuto.phoneSafe.R$layout: int activity_address
+com.longuto.phoneSafe.R$layout: int activity_advance_tools
+com.longuto.phoneSafe.R$layout: int activity_back_num
+com.longuto.phoneSafe.R$layout: int activity_guide
+com.longuto.phoneSafe.R$layout: int activity_home
+com.longuto.phoneSafe.R$layout: int activity_list_contact
+com.longuto.phoneSafe.R$layout: int activity_lost_find
+com.longuto.phoneSafe.R$layout: int activity_progress
+com.longuto.phoneSafe.R$layout: int activity_rocket
+com.longuto.phoneSafe.R$layout: int activity_setting
+com.longuto.phoneSafe.R$layout: int activity_soft_ware
+com.longuto.phoneSafe.R$layout: int activity_splash
+com.longuto.phoneSafe.R$layout: int activity_welcome
+com.longuto.phoneSafe.R$layout: int backnum_add_dialog
+com.longuto.phoneSafe.R$layout: int backnum_change_dialog
+com.longuto.phoneSafe.R$layout: int backnum_item
+com.longuto.phoneSafe.R$layout: int diytoast_item
+com.longuto.phoneSafe.R$layout: int home_grid_item
+com.longuto.phoneSafe.R$layout: int init_pwd_dialog
+com.longuto.phoneSafe.R$layout: int layout_dot_state
+com.longuto.phoneSafe.R$layout: int layout_protected_fragment
+com.longuto.phoneSafe.R$layout: int layout_protectsetup_fragment
+com.longuto.phoneSafe.R$layout: int layout_setup1
+com.longuto.phoneSafe.R$layout: int layout_setup2
+com.longuto.phoneSafe.R$layout: int layout_setup3
+com.longuto.phoneSafe.R$layout: int layout_setup4
+com.longuto.phoneSafe.R$layout: int listcontact_item
+com.longuto.phoneSafe.R$layout: int progress_item
+com.longuto.phoneSafe.R$layout: int setting_item
+com.longuto.phoneSafe.R$layout: int soft_ware_item
+com.longuto.phoneSafe.R$layout: int soft_ware_shared
+com.longuto.phoneSafe.R$layout: int test_pwd_dialog
+com.longuto.phoneSafe.R$layout: int title_bar
+com.longuto.phoneSafe.R$menu: int address
+com.longuto.phoneSafe.R$menu: int advance_tools
+com.longuto.phoneSafe.R$menu: int back_num
+com.longuto.phoneSafe.R$menu: int guide
+com.longuto.phoneSafe.R$menu: int home
+com.longuto.phoneSafe.R$menu: int list_contact
+com.longuto.phoneSafe.R$menu: int lost_find
+com.longuto.phoneSafe.R$menu: int progress
+com.longuto.phoneSafe.R$menu: int rocket
+com.longuto.phoneSafe.R$menu: int setting
+com.longuto.phoneSafe.R$menu: int soft_ware
+com.longuto.phoneSafe.R$menu: int splash
+com.longuto.phoneSafe.R$menu: int stup1
+com.longuto.phoneSafe.R$menu: int stup2
+com.longuto.phoneSafe.R$menu: int stup3
+com.longuto.phoneSafe.R$menu: int stup4
+com.longuto.phoneSafe.R$menu: int welcome
+com.longuto.phoneSafe.R$raw: int guoge
+com.longuto.phoneSafe.R$string: int action_settings
+com.longuto.phoneSafe.R$string: int app_name
+com.longuto.phoneSafe.R$string: int hello_world
+com.longuto.phoneSafe.R$string: int title_activity_address
+com.longuto.phoneSafe.R$string: int title_activity_advance_tools
+com.longuto.phoneSafe.R$string: int title_activity_back_num
+com.longuto.phoneSafe.R$string: int title_activity_guide
+com.longuto.phoneSafe.R$string: int title_activity_home
+com.longuto.phoneSafe.R$string: int title_activity_list_contact
+com.longuto.phoneSafe.R$string: int title_activity_lost_find
+com.longuto.phoneSafe.R$string: int title_activity_progress
+com.longuto.phoneSafe.R$string: int title_activity_rocket
+com.longuto.phoneSafe.R$string: int title_activity_setting
+com.longuto.phoneSafe.R$string: int title_activity_soft_ware
+com.longuto.phoneSafe.R$string: int title_activity_splash
+com.longuto.phoneSafe.R$string: int title_activity_stup1
+com.longuto.phoneSafe.R$string: int title_activity_stup2
+com.longuto.phoneSafe.R$string: int title_activity_stup3
+com.longuto.phoneSafe.R$string: int title_activity_stup4
+com.longuto.phoneSafe.R$string: int title_activity_task
+com.longuto.phoneSafe.R$style: int AppBaseTheme
+com.longuto.phoneSafe.R$style: int AppTheme
+com.longuto.phoneSafe.R$style: int MyDiyDialog
+com.longuto.phoneSafe.R$style: int NextBtn
+com.longuto.phoneSafe.R$style: int PreBtn
+com.longuto.phoneSafe.R$style: int titleBarStyle
+com.longuto.phoneSafe.R$styleable: int[] com_longuto_phoneSafe_view_SettingView
+com.longuto.phoneSafe.R$styleable: int com_longuto_phoneSafe_view_SettingView_des_off
+com.longuto.phoneSafe.R$styleable: int com_longuto_phoneSafe_view_SettingView_des_on
+com.longuto.phoneSafe.R$styleable: int com_longuto_phoneSafe_view_SettingView_setting_title
+com.longuto.phoneSafe.R$xml: int device_admin_sample
+com.longuto.phoneSafe.RocketActivity
+com.longuto.phoneSafe.RocketActivity: RocketActivity()
+com.longuto.phoneSafe.SettingActivity
+com.longuto.phoneSafe.SettingActivity: SettingActivity()
+com.longuto.phoneSafe.SetupBaseActivity: void pre(android.view.View)
+com.longuto.phoneSafe.SetupBaseActivity: void next(android.view.View)
+com.longuto.phoneSafe.SoftWareActivity
+com.longuto.phoneSafe.SoftWareActivity: SoftWareActivity()
+com.longuto.phoneSafe.SoftWareActivity: void onClick(android.view.View)
+com.longuto.phoneSafe.SplashActivity
+com.longuto.phoneSafe.SplashActivity: SplashActivity()
+com.longuto.phoneSafe.WelcomeActivity
+com.longuto.phoneSafe.WelcomeActivity: WelcomeActivity()
+com.longuto.phoneSafe.fragment.ProtectedFragment: void enterSetupAgain(android.view.View)
+com.longuto.phoneSafe.receive.BootCompleted
+com.longuto.phoneSafe.receive.BootCompleted: BootCompleted()
+com.longuto.phoneSafe.receive.MyAdminReceiver
+com.longuto.phoneSafe.receive.MyAdminReceiver: MyAdminReceiver()
+com.longuto.phoneSafe.receive.SmsReceive
+com.longuto.phoneSafe.receive.SmsReceive: SmsReceive()
+com.longuto.phoneSafe.service.AddressStateService
+com.longuto.phoneSafe.service.AddressStateService: AddressStateService()
+com.longuto.phoneSafe.service.BackNumService
+com.longuto.phoneSafe.service.BackNumService: BackNumService()
+com.longuto.phoneSafe.service.LocationService
+com.longuto.phoneSafe.service.LocationService: LocationService()
+com.longuto.phoneSafe.view.MyFocusableTV
+com.longuto.phoneSafe.view.MyFocusableTV: MyFocusableTV(android.content.Context)
+com.longuto.phoneSafe.view.MyFocusableTV: MyFocusableTV(android.content.Context,android.util.AttributeSet,int)
+com.longuto.phoneSafe.view.MyFocusableTV: MyFocusableTV(android.content.Context,android.util.AttributeSet)
+com.longuto.phoneSafe.view.SettingView
+com.longuto.phoneSafe.view.SettingView: SettingView(android.content.Context)
+com.longuto.phoneSafe.view.SettingView: SettingView(android.content.Context,android.util.AttributeSet,int)
+com.longuto.phoneSafe.view.SettingView: SettingView(android.content.Context,android.util.AttributeSet)

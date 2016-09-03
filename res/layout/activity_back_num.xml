@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.longuto.phoneSafe.BackNumActivity" >
+    <TextView
+        android:id="@+id/title_bar_tv"
+        style="@style/titleBarStyle"
+        android:text="黑名单"
+        />
+	<ListView
+	    android:id="@+id/backNum_lstV"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_below="@+id/title_bar_tv"
+	    />
+</RelativeLayout>

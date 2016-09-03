@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.longuto.phoneSafe.HomeActivity" >
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textSize="28sp"
+     	android:background="@android:color/holo_green_dark"
+        android:text="功能页面" />
+    
+    <!-- ellipsize : 隐藏字体显示 -->
+    <com.longuto.phoneSafe.view.MyFocusableTV
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_margin="5dp"
+        android:singleLine="true"
+        android:ellipsize="marquee"	
+        android:textSize="18sp"
+        android:text="小汤汤版安全卫士.更快,更强,更迅速.为你的手机护航.还能抽大奖哦"
+        />
+
+    <GridView
+        android:id="@+id/fuction_gv"
+        android:layout_below="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:verticalSpacing="15dp"
+        android:gravity="center"
+        android:numColumns="3" >
+    </GridView>
+ 
+</RelativeLayout>

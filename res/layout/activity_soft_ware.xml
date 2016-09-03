@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.longuto.phoneSafe.SoftWareActivity" >
+    <TextView
+        android:id="@+id/title_bar_tv"
+        style="@style/titleBarStyle"
+        android:text="软件管理"
+        />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title_bar_tv"
+        >
+	    <ListView
+	        android:id="@+id/softWare_lst"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" >
+	    </ListView>	
+	    <TextView 
+	        android:id="@+id/userdTag_tv"
+	       	android:layout_width="match_parent"
+	       	android:layout_height="wrap_content"
+	       	android:background="@android:color/darker_gray"
+	       	android:visibility="invisible"
+	       	android:text="用户程序"
+	        />
+    </FrameLayout>
+</RelativeLayout>

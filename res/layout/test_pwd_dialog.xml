@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <TextView
+        style="@style/titleBarStyle"
+        android:text="验证密码">
+    </TextView>
+	<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content">
+	    <EditText
+	        android:id="@+id/test_pwd_edt"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="10dp"
+	        android:singleLine="true"
+	        android:ems="10"
+	        android:inputType="textPassword" >
+	        <requestFocus />
+	    </EditText>
+	    <CheckBox
+	        android:id="@+id/changeType_ckb"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignRight="@+id/test_pwd_edt"
+	        android:layout_alignTop="@+id/test_pwd_edt"
+	        android:text="" />
+	</RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        >
+        <Button
+            android:id="@+id/ok_btn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:text="确定" />
+        <Button
+            android:id="@+id/cancle_btn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:text="取消" />
+    </LinearLayout>
+    
+
+</LinearLayout>

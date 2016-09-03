@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <TextView
+        style="@style/titleBarStyle"
+        android:text="添加黑名单" />
+    <EditText
+        android:id="@+id/backNum_edt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="12" >
+        <requestFocus />
+    </EditText>
+	<RadioGroup
+	    android:id="@+id/backNumMode_rgp"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+	    <RadioButton
+	        android:id="@+id/all_rb"
+	        android:layout_width="0dp"
+	        android:layout_weight="1"
+	        android:layout_height="wrap_content"
+	        android:checked="true"
+	        android:text="全部" />
+	    <RadioButton
+	        android:id="@+id/sms_rb"
+	        android:layout_width="0dp"
+	        android:layout_weight="1"
+	        android:layout_height="wrap_content"
+	        android:text="短信" />	
+	    <RadioButton
+	        android:id="@+id/call_rb"
+	        android:layout_width="0dp"
+	        android:layout_weight="1"
+	        android:layout_height="wrap_content"
+	        android:text="电话" />
+	</RadioGroup>
+	<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" >
+		<Button
+		    android:id="@+id/backNumAdd_btn"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:layout_marginLeft="60dp"
+		    android:text="添加" />
+		<Button
+		    android:id="@+id/backNumCancel_btn"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentRight="true"
+		    android:layout_marginRight="60dp"
+		    android:text="取消" />
+	</RelativeLayout>
+</LinearLayout>

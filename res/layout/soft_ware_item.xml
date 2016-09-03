@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+    
+    <ImageView
+        android:id="@+id/softIcon_iv"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/shenmabg" />
+  
+    <TextView
+        android:id="@+id/softName_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/softIcon_iv"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/softIcon_iv"
+        android:textSize="18sp"
+        android:text="手机安全卫士" />
+
+    <TextView
+        android:id="@+id/softIsSdCard_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/softIcon_iv"
+        android:layout_alignLeft="@+id/softName_tv"
+        android:text="手机内存" />
+
+    <TextView
+        android:id="@+id/softVersion_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/softIsSdCard_tv"
+        android:layout_alignBottom="@+id/softIsSdCard_tv"
+        android:layout_toRightOf="@+id/softIsSdCard_tv"
+        android:layout_marginLeft="25dp"
+        android:text="1.0" />
+
+    <ImageView
+        android:id="@+id/islockSafe_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/unlock" />
+
+</RelativeLayout>

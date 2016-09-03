@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:longuto="http://schemas.android.com/apk/res/com.longuto.phoneSafe"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <com.longuto.phoneSafe.view.SettingView 
+	    android:id="@+id/myset_setv"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    longuto:setting_title="是否开启防盗功能"
+	    longuto:des_on="开启了防盗功能"
+	    longuto:des_off="关闭了防盗功能" />
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="5dp"
+	    android:gravity="center"
+	    android:orientation="horizontal" >	   
+	</LinearLayout>
+	<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    >
+	    <ImageView
+	        android:layout_width="60dp"
+	        android:layout_height="60dp"
+	        android:layout_centerHorizontal="true"
+	        android:layout_centerVertical="true"
+	        android:src="@drawable/phone" />	    
+	    <Button
+	       style="@style/NextBtn"
+	       android:drawableRight="@drawable/ic_andorid"
+	       android:text="设置完成" />
+	</RelativeLayout>
+
+</LinearLayout>
